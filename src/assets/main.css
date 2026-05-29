@@ -1,0 +1,211 @@
+/* ===== Poppins 字体导入 ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== 全局 Poppins 字体设置 ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== 你的原始样式 - 现在使用 Poppins 字体 ===== */
+.nav-danger.nav-pills .nav-link.active {
+    background-color: #0080ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.nav-danger a {
+    color: #7c7c7c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.bg-dark .nav-danger a {
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.bg-dark .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+/* Columns Helpers */
+.w-5 {
+    width: 5% !important;
+}
+.w-10 {
+    width: 10% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-65 {
+    width: 65% !important;
+}
+/* Images */
+td img.w-cover {
+    width: 65px;
+    height: 65px;
+    background-color: #ddd;
+}
+.table-sm td img.w-cover {
+    width: 35px;
+    height: 35px;
+}
+
+small.text-secondary {
+    font-size: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.table th, .table td {
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+}
+.table th {
+    font-weight: 600;
+}
+table td {
+    line-height: 1;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+table td.title-both {
+    line-height: 1.4;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.table-sm td.title-both {
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+}
+.table-sm td {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 767px) {
+    .border-on-info {
+        border-left: 0 !important;
+        border-top: 1px solid #dee2e6;
+    }
+}
+.min-albums {
+    min-width: 250px;
+}
+.min-tracks {
+    min-width: 200px;
+}
+.min-artists {
+    min-width: 200px;
+}
+td.title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.table-sm td.title {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+td.title .sub {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+td:first-child {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.b-run {
+    width: 2.2em;
+    height: 2.2em;
+    font-size: 0.9rem;
+}
+.popover-header {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.popover {
+    text-align: center;
+    max-width: 135px;
+}
+.popover-body {
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.no-line td {
+    border-top: 0 !important;
+}
+.bg-dark .table th, .bg-dark .table td {
+    border-top: 1px solid #343a40;
+}
+.small-legend {
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.chart-nav {
+    line-height: 1;
+    font-size: 1.4em;
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.bg-light.chart-table {
+    background-color: white !important;
+}
+.bg-dark table {
+    background-color: #0c1219;
+}
+
+.bg-dark .table-striped tbody tr:nth-of-type(2n) {
+    background-color: #292d31;
+}
+
+/* ===== 新增辅助类用于 Poppins 字重 ===== */
+.font-poppins-light { font-family: 'Poppins', sans-serif !important; font-weight: 300 !important; }
+.font-poppins-regular { font-family: 'Poppins', sans-serif !important; font-weight: 400 !important; }
+.font-poppins-medium { font-family: 'Poppins', sans-serif !important; font-weight: 500 !important; }
+.font-poppins-semibold { font-family: 'Poppins', sans-serif !important; font-weight: 600 !important; }
+.font-poppins-bold { font-family: 'Poppins', sans-serif !important; font-weight: 700 !important; }
+
+/* ===== 按钮和其他元素字体 ===== */
+.btn, .form-control, .form-label, .card-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== 响应式字体优化 ===== */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    
+    table td {
+        font-size: 1.1rem;
+    }
+    
+    .chart-nav {
+        font-size: 1.2em;
+    }
+    
+    .table-sm td {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    
+    table td {
+        font-size: 1rem;
+    }
+    
+    td.title {
+        font-size: 1rem;
+    }
+}

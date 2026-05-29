@@ -1,0 +1,9 @@
+    [[redirects]]
+    from = "/weekly/*"
+    to = "/index.html"
+    status = 200
+
+    [[redirects]]
+    from = "/settings"
+    to = "/index.html"
+    status = 200
